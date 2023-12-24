@@ -1,11 +1,14 @@
-package com.skylar.wiki;
+package com.skylar.wiki.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
 
+// @ComponentScan({"com.skylar", "com.test"})
+@ComponentScan("com.skylar")
 @SpringBootApplication
 public class WikiApplication {
 
