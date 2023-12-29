@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@vue/cli": "^4.5.9",
-    "ant-design-vue": "^2.0.0-rc.3",
+    "ant-design-vue": "^2.2.8",
     "save": "^2.9.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
